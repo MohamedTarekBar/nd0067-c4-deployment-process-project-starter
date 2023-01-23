@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "setup:ENV":"chmod +x udagram/set_env.sh && udagram/set_env.sh",
         "frontend:install": "cd udagram/udagram-frontend && npm install -f",
         "frontend:start": "cd udagram/udagram-frontend && npm run start",
         "frontend:build": "cd udagram/udagram-frontend && npm run build",
